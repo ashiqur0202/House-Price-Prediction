@@ -12,7 +12,7 @@ Welcome to the House Price Prediction Projects Repository! This collection bring
 
 ## Table of Contents
 
-### 1. [Mexico Housing Price Prediction](#)
+### 1. [Bangladesh Housing Price Prediction](https://github.com/ashiqur0202/House-Price-Prediction/tree/master/Housing%20in%20Bangladesh)
 - **Description:** Predicting house prices in Mexico using [Dataset Source].
 - **Key Features:**
   - Data Cleaning and Preprocessing
@@ -21,41 +21,6 @@ Welcome to the House Price Prediction Projects Repository! This collection bring
   - Model Selection (e.g., Linear Regression, Random Forest)
   - Evaluation Metrics (e.g., RMSE, MAE)
 
-### 2. [Buenos Aires Housing Price Prediction](#)
-- **Description:** Analyzing and predicting housing prices in Buenos Aires.
-- **Key Features:**
-  - Data Collection and Cleaning
-  - Geographic Analysis
-  - Time-series Trends
-  - Machine Learning Models (e.g., XGBoost, Lasso Regression)
-  - Visualization of Predictions
-
-### 3. [Advanced Regression Analysis Project (Kaggle Dataset)](#)
-- **Description:** Participation in a Kaggle competition related to house price prediction.
-- **Key Features:**
-  - Kaggle Dataset Exploration
-  - Advanced Regression Techniques
-  - Ensemble Methods
-  - Hyperparameter Tuning
-  - Kaggle Submission and Result Analysis
-
-### 4. [Urban vs. Suburban Housing Price Comparison](#)
-- **Description:** Comparative analysis of urban and suburban housing prices.
-- **Key Features:**
-  - Data Segmentation
-  - Comparative Visualization
-  - Statistical Analysis
-  - Machine Learning Model for Each Segment
-  - Insights and Recommendations
-
-### 5. [Time Series Forecasting for Housing Prices](#)
-- **Description:** Predicting future housing prices using time series analysis.
-- **Key Features:**
-  - Time Series Data Preparation
-  - ARIMA or LSTM Model Implementation
-  - Forecasting Future Prices
-  - Visualization of Time Series Trends
-  - Model Performance Evaluation
 
 
 ## How to Use This Repository
