@@ -57,7 +57,8 @@
 <body>
     <div class="container">
         <h1>House Price Prediction in Dhaka, Bangladesh</h1>
-        <form action="/predict" method="post">
+        <form action="{% url 'predictor:predict' %}" method="post">
+            {% csrf_token %}
             <div class="form-group">
                 <label for="no_of_beds">No. of Beds</label>
                 <input type="number" name="no_of_beds" required>

@@ -56,21 +56,49 @@
 </head>
 <body>
     <div class="container">
-        <h1>House Price Prediction in Dhaka, Bangladesh</h1>
-        <form action="/predict" method="post">
+        <h1>House Price Prediction</h1>
+        <form action="{% url 'predictor:predict' %}" method="post">
+            {% csrf_token %}
             <div class="form-group">
-                <label for="no_of_beds">No. of Beds</label>
+                <label for="no_of_beds">No. of Beds:</label>
                 <input type="number" name="no_of_beds" required>
             </div>
 
             <div class="form-group">
-                <label for="no_of_baths">No. of Baths</label>
+                <label for="no_of_baths">No. of Baths:</label>
                 <input type="number" name="no_of_baths" required>
             </div>
 
             <div class="form-group">
-                <label for="area">Area</label>
+                <label for="area">Area:</label>
                 <input type="number" name="area" required>
+            </div>
+
+            <div class="form-group">
+                <label for="type_n">Type:</label>
+                <select name="type_n" required>
+                    <option value="0">Type 0</option>
+                    <option value="1">Type 1</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="region_n">Region:</label>
+                <select name="region_n" required>
+                    <option value="0">Region 0</option>
+                    <option value="1">Region 1</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sub_region_n">Sub-region:</label>
+                <select name="sub_region_n" required>
+                    <option value="0">Sub-region 0</option>
+                    <option value="1">Sub-region 1</option>
+                    <!-- Add more options as needed -->
+                </select>
             </div>
 
             <button type="submit">Predict</button>
